@@ -1,0 +1,36 @@
+{
+  "name": "auditor_bot",
+  "version": "2.0.0",
+  "description": "Bot to audit messages and various events in Discord. ",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --delay 5 --ignore functions/ --ignore internalfunctions/ --ignore guildconfig/ --ignore databases/ --ignore databaseindexes --exec babel-node main.js --max_old_space_size=8192"
+  },
+  "author": "Erika White",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "aztro-js": "^0.1.5",
+    "canvas": "^2.6.1",
+    "discord.js": "git+https://github.com/MatteZ02/discord.js.git",
+    "fs-extra": "^9.0.1",
+    "http": "0.0.1-security",
+    "math.js": "^1.1.46",
+    "mathjs": "^7.6.0",
+    "moment": "^2.29.1",
+    "moment-transform": "^1.0.1",
+    "node-emoji": "^1.10.0",
+    "pouchdb": "^7.2.2",
+    "pouchdb-find": "^7.2.2",
+    "request": "^2.88.2",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "nodemon": "^2.0.6"
+  }
+}
