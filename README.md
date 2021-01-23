@@ -46,3 +46,5 @@ Besides her usual message information functions, she can also do these miscellan
 **!tarot** will pull a tarot card. 
 
 ![Tarot Image](https://i.imgur.com/cpqMkVo.png)
+
+When using this, add a file called "Token.txt" with the bot token inside. Then use npm start to get started. 
