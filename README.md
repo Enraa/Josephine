@@ -1,5 +1,5 @@
 # Josephine
-A Discord Bot for auditing messages and other miscellaneous functions
+A Discord Bot for auditing messages and other miscellaneous functions, using [Discord.js](https://discord.js.org/#/).
 
 This is a Discord bot that will read messages in a server and provide information on them, including how many messages a person has posted, the average number of messages a user posts, common words they will use, as well as providing graphs of how much activity a user has over time. Use **!info** or **!graph** and tag a user or channel to see this information. **!count** can be used to determine how many times a word has been said by each person or channel in a server. Messages are cached and her dictionaries are regenerated automatically every 30 minutes. 
 
